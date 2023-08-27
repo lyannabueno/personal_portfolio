@@ -63,7 +63,11 @@ section h2 {
     margin-top: 25px;
 }
 
-.social-links img {
+#edit-insta {
+    height: 23px;
+}
+
+#edit-linkedin, #edit-github {
     height: 34px;
 }
 
@@ -84,11 +88,12 @@ section h2 {
 .container-hobbies ul {
     list-style-type: none; /*retira os pontinhos padrão da lista não ordenada*/
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.container-hobbies li, .container-hobbies li p {
+.container-hobbies li {
     text-align: center;
+    margin: 0 20px;
 }
 
 #hobbies h2 {
@@ -99,9 +104,19 @@ section h2 {
     display: block;
 }
 
-.contact-methods {
+.container-contact {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-contact > div {
+    flex: 1;
+    margin-left: auto;
+}
+
+.social-links {
+    text-align: right;
 }
 
 h4 {
