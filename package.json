@@ -1,12 +1,12 @@
 {
   "name": "projeto_pessoal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "copy-anything": "^2.0.6",
     "errno": "^0.1.8",
     "graceful-fs": "^4.2.11",
+    "gulp-cli": "^2.3.0",
     "iconv-lite": "^0.6.3",
     "image-size": "^0.5.5",
     "is-what": "^3.14.1",
@@ -23,13 +23,21 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
     "less": "^4.2.0",
     "less-watch-compiler": "^1.16.3"
   },
   "scripts": {
+    "gulp": "gulp",
     "less": "less-watch-compiler ./source/config ./build/style main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

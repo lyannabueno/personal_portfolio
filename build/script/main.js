@@ -1,0 +1,1 @@
+$(ಠ_ಠ654).ready(function(){$("#phone").mask("(00) 00000-0000"),$("form").validate({rules:{email:{email:!0}},ಠ_ಠ652:function(ಠ_ಠ655){console.log(ಠ_ಠ655)},ಠ_ಠ653:function(ಠ_ಠ655){ಠ_ಠ655=ಠ_ಠ655.numberOfInvalids();ಠ_ಠ655&&alert(`Complete the ${ಠ_ಠ655} missing fields`)}})});
