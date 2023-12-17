@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="=X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dosis&family=Merriweather:ital,wght@1,300&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/style/main.css"/>
+</head>
+
+<body>
+    <header class="sticky-top" id="cabecalho">
+        <div class="navbar pb-0 pt-0">
+            <div class="container justify-content-end">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active pt-3 pb-0 ps-0 pe-0" href="#who-is-me">
+                            <i class="bi bi-file-person-fill"></i>
+                            About me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 pb-0 ps-0 pe-0" href="#overview">
+                            <i class="bi bi-body-text"></i>
+                            Overview
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 pb-0 ps-0 pe-0" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="who-is-me">
+            <div class="container">
+                <div>
+                    <h1>Ana Bueno</h1>
+                    <h6>Hello, my name is Ana Bueno.</h6>
+                    <h6>I am a current Front-End developer<br>and future Full-Stack developer</h6>
+                    <h6 class="pt-4">Web Developer | Front-End</h6>
+                </div>
+                <div class="d-block text-center">
+                    <img src="images/selfie.jpeg" alt="uma selfie pessoal"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <p>I have been practicing Full Stack Development for 8 months, with proficiency in HTML, CSS, SASS, LESS, JavaScript, Python, Git, and frameworks like Bootstrap and jQuery.</p>
+                <p id="mtb-4" class="ms-md-4 me-md-4">Since then, I've built e-commerce projects that present innovative and efficient solutions to business challenges, demonstrating my skills in clean coding, advanced programming logic, and a keen focus on user experience.</p>
+                <p>I am driven by a passion for creating and improving, always striving for excellence in my projects. I am committed to bringing not only my technical experience but also a strong sense of responsibility, adaptability, and a continuous desire to learn.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="overview">
+            <div class="container">
+                <h2>Overview</h2>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="nav nav-pills flex-column nav-info">
+                            <button class="fw-bold text-start nav-link active" type="button" data-bs-toggle="tab" data-bs-target="#web-projects">Web Projects</button>
+                            <button class="fw-bold text-start nav-link" type="button" data-bs-toggle="tab" data-bs-target="#work-experience">Work Experience</button>
+                            <button class="fw-bold text-start nav-link" type="button" data-bs-toggle="tab" data-bs-target="#extracurricular-activities">Extracurricular</button>
+                            <button class="fw-bold text-start nav-link" type="button" data-bs-toggle="tab" data-bs-target="#hobbies">Hobbies</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-10 col-md-12">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="web-projects">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 pb-4">
+                                        <article class="card">
+                                            <div class="card-header">Alquimia na Serra</div>
+                                            <a href="https://projeto-cervejaria.vercel.app/">
+                                                <img class="w-100 h-100" src="images/restaurant-project.png" alt="Foto do projeto Alqumia na Serra (Restaurante)">
+                                            </a>
+                                            <div class="card-body">
+                                                <p class="card-text">Dynamic website developed to promote a craft brewery. This project includes features such as a catalog of beers, non-alcoholic beverages, desserts, and main dishes that will be served in-house. Additionally, the page features an interactive section for event reservations.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 pb-4">
+                                        <article class="card">
+                                            <div class="card-header">Med Shop</div>
+                                            <a href="https://med-shop.vercel.app/">
+                                                <img class="w-100 h-100" src="images/med-project.png" alt="Foto do projeto Med Shop (E-commerce)">
+                                            </a>
+                                            <div class="card-body">
+                                                <p class="card-text ms-md-2">Med Shop is a project featuring an elegant and intuitive user interface for an online e-commerce platform specializing in medical and pharmaceutical products. The page includes features such as product display, a questions tab, and specific characteristics of each product.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4">
+                                        <article class="card">
+                                            <div class="card-header">Beauty Skin</div>
+                                            <a href="https://beauty-skin-eta.vercel.app/">
+                                                <img class="w-100 h-100" src="images/skin-project.png" alt="Foto do projeto Beauty-Skin (E-commerce)">
+                                            </a>
+                                            <div class="card-body">
+                                                <p class="card-text">Elegant layout of beauty and skin care products, with a focus on usability and attractive design. The site displays the application of JavaScript in the 'Contacts' tab, detailed information about products and the purchase option in a responsive interface that adapts to all.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="work-experience">
+                                <div class="row justify-content-center">
+                                    <h3>Costantino Ottaviano Clinical Hospital of Teresópolis</h3>
+                                    <p>03 / 06 / 2023 – currently</p>
+                                    <h4 class="fw-bold">Young Apprentice in Administrative Occupations</h4>
+                                    <ul class="ps-5">
+                                        <li>Communicate with patients and visitors seeking information about discharge or transfer;</li>
+                                        <li>Responsible for organizing the medical records of patients admitted to three clinics within the hospital;</li>
+                                        <li>Ensure all admitted patients have the necessary documentation before their departure; handle all related protocols;</li>
+                                        <li>Enhanced soft skills in the role include interpersonal communication, time management, adaptability, negotiation, and organization</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="extracurricular-activities">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <h3>Brazilian Robotics Olympiad</h3>
+                                            <p>08 / 05 / 2023</p>
+                                        </div>
+                                        <h4 class="fw-bold">Organization</h4>
+                                        <ul class="ps-5">
+                                            <li>Responsible for communicating the competition order to each team;</li>
+                                            <li>In charge of guiding teams to their competition areas along with the referees;</li>
+                                            <li>Assigned to photograph the event and share it on social media</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <h3>Hackathon: Unifeso Challenge</h3>
+                                            <p>10 / 07 / 2023 - 10 / 08 / 2023</p>
+                                        </div>
+                                        <h4 class="fw-bold">Competing Team</h4>
+                                        <ul class="ps-5">
+                                            <li>Tasked with creating a page or slide that reflected solutions to the problem;</li>
+                                            <li>Responsible for promoting a project/idea to solve a problem in the Teresópolis city;</li>
+                                            <li>Designated to develop the Front-End of the designed page</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hobbies">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 pb-3">
+                                        <article class="card">
+                                            <div class="card-header">Go travel</div>
+                                                <img src="images/travel.jpg" alt="Foto aleatória de uma vista">
+                                        </article>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 pb-3">
+                                        <article class="card">
+                                            <div class="card-header">To read</div>
+                                                <img src="images/books.jpg" alt="Foto de um livro">
+                                        </article>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 pb-3">
+                                        <article class="card">
+                                            <div class="card-header">To cook</div>
+                                                <img src="images/cooking.jpg" alt="Foto de verduras e legumes em uma mesa">
+                                        </article>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 pb-3">
+                                        <article class="card">
+                                            <div class="card-header">To paint</div>
+                                                <img src="images/paint.jpg" alt="Foto do pintas e um pincel na mesa">
+                                        </article>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 pb-3">
+                                        <article class="card">
+                                            <div class="card-header">Listen to music</div>
+                                                <img src="images/music.jpg" alt="Foto uma rosa em cima de um livro de música">
+                                        </article>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 pb-3">
+                                        <article class="card">
+                                            <div class="card-header">To code</div>
+                                                <img src="images/programming.jpg" alt="Foto de codigos de programação">
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container pb-4">
+                <h2>Contact</h2>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form>
+                            <input type="text" name="name" class="form-control mb-3" placeholder="Name" required/>
+                            <input type="email" id="email" name="email" class="form-control mb-3" placeholder="E-mail" required/>
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Telefone"/>
+                            <textarea class="form-control mb-4" placeholder="Message" required></textarea>
+                        </form>
+                        <div class="d-flex justify-content-between align-items-baseline">
+                            <button class="btn" type="submit">Submit</button>
+                            <ul>
+                                <li class="pe-2">
+                                    <a href="https://www.instagram.com/lyannabueno/">
+                                        <img src="images/instagram.svg" alt="Conta do instagram"/>
+                                    </a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="https://www.linkedin.com/in/anabuenogomes/">
+                                        <img src="images/linkedin.svg" alt="Conta do linkedin"/>
+                                    </a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="https://github.com/lyannabueno">
+                                        <img src="images/github.svg" alt="Conta do Github"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:anabuenogomes@hotmail.com">
+                                        <img src="images/mail.svg" alt="Conta do e-mail"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container d-flex">
+                &copy; All rights reserved - Ana Bueno
+            </div>
+        </footer>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="source/scripts/lib js/jquery-3.7.1.min.js"></script>
+<script src="source/scripts/lib js/jquery-migrate-1.4.1.min.js"></script>
+<script src="source/scripts/lib js/jquery.mask.min.js"></script>
+<script src="source/scripts/lib js/jquery.validate_core.js"></script>
+<script src="source/scripts/main.js"></script>
+</body>
+</html>

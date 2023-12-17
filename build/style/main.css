@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+header {
+  padding: 16px 0 0 0;
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg);
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+header .navbar-toggler {
+  background-color: white;
+  margin-bottom: 16px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body section h2 {
+  margin: 30px 0 19px 0;
+}
+@media (max-width: 767px), (min-width: 768px) and (max-width: 1023px) {
+  body section h3 {
+    margin-top: 20px;
+  }
+}
+body section p {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  body section #mtb-4 {
+    margin: 16px 0;
+  }
+}
+body #menu .nav {
+  justify-content: center;
+  background-color: antiquewhite;
+  padding-bottom: 13px;
+}
+body #menu .nav-link.active {
+  color: #004cff;
+}
+body #menu .nav li {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  font-size: 14px;
+}
+body #menu .nav li a {
+  color: #131212;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+body #menu .nav li a:hover {
+  text-decoration: none;
+  color: #004cff;
+}
+body #who-is-me .container {
+  justify-content: space-evenly;
+  max-width: 1020px;
+}
+@media (min-width: 768px) and (max-width: 1023px), (min-width: 1024px) {
+  body #who-is-me .container {
+    display: flex;
+  }
+}
+body #who-is-me img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  body #who-is-me img {
+    margin-top: 20px;
+  }
+}
+body #who-is-me h1 {
+  font-family: 'Merriweather', serif;
+  color: black;
+}
+@media (max-width: 767px) {
+  body #who-is-me h1 {
+    text-align: center;
+  }
+}
+body #who-is-me h6 {
+  color: #6b6b6b;
+}
+@media (max-width: 767px) {
+  body #who-is-me h6 {
+    text-align: center;
+  }
+}
+body #about {
+  margin: 50px 0;
+}
+body #about .container {
+  display: flex;
+  max-width: 1020px;
+}
+@media (max-width: 767px) {
+  body #about .container {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px), (min-width: 1024px) {
+  body #about .container h1 {
+    text-align: center;
+  }
+}
+body #about .row {
+  text-align: center;
+}
+body #overview .nav-link {
+  background-color: transparent;
+  color: black;
+}
+body #overview .nav-link.active {
+  background-color: burlywood;
+  color: black;
+}
+body #web-projects img {
+  object-fit: cover;
+}
+body #web-projects .row > .col-lg-4 {
+  margin-top: 20px;
+}
+body #work-experience div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+body #work-experience ul {
+  padding: 0;
+}
+body #work-experience h3 {
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  body #work-experience h3 {
+    margin-top: 20px;
+  }
+}
+body #work-experience h4 {
+  margin-top: 10px;
+}
+body #extracurricular-activities h3 {
+  margin-bottom: 10px;
+}
+body #extracurricular-activities h4 {
+  margin-top: 10px;
+}
+body #hobbies img {
+  height: 210px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+body #hobbies .row > .col-lg-4 {
+  margin-top: 20px;
+}
+body #contact textarea {
+  resize: none;
+}
+body #contact button {
+  background-color: burlywood;
+}
+body #contact ul li {
+  display: inline;
+}
+body #contact ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+body footer {
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg);
+  object-fit: cover;
+  color: white;
+  padding: 5px 0;
+  font-weight: 500;
+}
+@media (min-width: 1024px) {
+  body footer div {
+    justify-content: start;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body footer div {
+    justify-content: end;
+  }
+}
+@media (max-width: 767px) {
+  body footer div {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,255 @@
+@import "variaveis.less";
+@breakPointMobile: ~"(max-width: 767px)";
+@breakPointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
+@breakPointPc: ~"(min-width: 1024px)";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    padding: 16px 0 0 0;
+    background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg);
+    object-fit: cover;
+    margin-bottom: 50px;
+
+    .navbar-toggler {
+        background-color: white;
+        margin-bottom: 16px;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    section {
+        h2 {
+            margin: 30px 0 19px 0;
+        }
+
+        h3 {
+            @media @breakPointMobile, @breakPointTablet {
+                margin-top: 20px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        #mtb-4 {
+            @media @breakPointMobile {
+                margin: 16px 0;
+            }
+        }
+    }
+
+    #menu {
+        .nav {
+            justify-content: center;
+            background-color: antiquewhite;
+            padding-bottom: 13px;
+
+            &-link.active {
+                color: #colors[secundaryColor];
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                margin-left: 8px;
+                font-size: 14px;
+            
+                a {
+                    color:rgb(19, 18, 18);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 16px;
+        
+                    &:hover {
+                        text-decoration: none;
+                        color: #colors[secundaryColor];
+                    }
+                }
+            }
+        }
+    }
+
+    #who-is-me {
+        .container {
+            @media @breakPointTablet, @breakPointPc {
+                display: flex;
+            }
+            justify-content: space-evenly;
+            max-width: 1020px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+
+            @media @breakPointMobile {
+                margin-top: 20px;
+            }
+        }
+    
+        h1 {
+            font-family: 'Merriweather', serif;
+            color: #colors[textColor];
+    
+            @media @breakPointMobile {
+                text-align: center;
+            }
+        }
+
+        h6 {
+            color: rgb(107, 107, 107);
+
+            @media @breakPointMobile {
+                text-align: center;
+            }
+        }
+    }
+
+    #about {
+        margin: 50px 0;
+
+        .container {
+            display: flex;
+            max-width: 1020px;
+
+            @media @breakPointMobile {
+                display: block;
+            }
+
+            h1 {
+                @media @breakPointTablet, @breakPointPc {
+                    text-align: center;
+                }
+            }
+        }
+
+        .row {
+            text-align: center;
+        }
+    }
+
+    #overview {
+        .nav-link {
+            background-color: transparent;
+            color: #colors[textColor];
+
+            &.active {
+                background-color: #colors[primaryColor];
+                color: #colors[textColor];
+            }
+        }
+    }
+
+    #web-projects {
+        img {
+            object-fit: cover;
+        }
+
+        .row > .col-lg-4 {
+            margin-top: 20px;
+        }
+    }
+
+    #work-experience {
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+
+            @media @breakPointMobile {
+                margin-top: 20px;
+            }
+        }
+
+        h4 {
+            margin-top: 10px;
+        }
+    }
+
+    #extracurricular-activities {
+        h3 {
+            margin-bottom: 10px;
+        }
+    
+        h4 {
+            margin-top: 10px;
+        }
+    }
+
+
+    #hobbies {
+        img {
+            height: 210px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .row > .col-lg-4 {
+            margin-top: 20px;
+        }
+    }
+
+    #contact {
+        textarea {
+            resize: none;
+        }
+
+        button {
+            background-color: #colors[primaryColor];
+        }
+
+        ul li {
+            display: inline;
+            
+            a {
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    footer {
+        background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg);
+        object-fit: cover;
+        color: white;
+        padding: 5px 0;
+        font-weight: 500;
+
+        div {
+            @media @breakPointPc {
+                justify-content: start;
+            }
+
+            @media @breakPointTablet {
+                justify-content: end;
+            }
+
+            @media @breakPointMobile {
+                justify-content: center;
+            }
+        }
+    }
+}
