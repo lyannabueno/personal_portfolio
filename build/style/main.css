@@ -21,7 +21,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 body section h2 {
-  margin-bottom: 19px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 @media (max-width: 767px), (min-width: 768px) and (max-width: 1023px) {
   body section h3 {
@@ -131,8 +132,10 @@ body #overview .nav-link.active {
 body #web-projects img {
   object-fit: cover;
 }
-body #web-projects .row > .col-lg-4 {
-  margin-top: 20px;
+@media (max-width: 767px), (min-width: 768px) and (max-width: 1023px) {
+  body #web-projects .row > .col-lg-4 {
+    margin-top: 20px;
+  }
 }
 body #work-experience div {
   display: flex;
