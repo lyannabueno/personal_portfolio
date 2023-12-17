@@ -21,7 +21,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 body section h2 {
-  margin: 30px 0 19px 0;
+  margin-bottom: 19px;
 }
 @media (max-width: 767px), (min-width: 768px) and (max-width: 1023px) {
   body section h3 {
@@ -98,7 +98,7 @@ body #who-is-me h6 {
   }
 }
 body #about {
-  margin: 50px 0;
+  margin-top: 50px;
 }
 body #about .container {
   display: flex;
@@ -116,6 +116,9 @@ body #about .container {
 }
 body #about .row {
   text-align: center;
+}
+body #overview {
+  padding: 140px 0;
 }
 body #overview .nav-link {
   background-color: transparent;
@@ -199,5 +202,3 @@ body footer {
     justify-content: center;
   }
 }
-
-/*# sourceMappingURL=maps/main.css.map */
